@@ -39,8 +39,7 @@ h1, h2,h3,h4,h5{
 .svg__ico{
     width: 200px;
 }
-.fifth-section{
-}
+
 .fourth-section{
     background-image: url("../img/bg-cta.jpg");
     background-size: cover;
@@ -90,6 +89,9 @@ font-weight: 400;
 footer a:hover{
     color: #fdcc52 !important;
 }
+.top-nav a:hover{
+    color: white !important;
+}
 
 @media (min-width: 544px) {  
     h1, .jumbotron h1, .jumbotron button {font-size:1rem;} /*1rem = 16px*/
@@ -124,9 +126,7 @@ footer a:hover{
         background-image:  url('../img/bg-pattern.png');       
         background-repeat: repeat;   
     }
-    .top-nav a:hover{
-        color: white !important;
-    }
+    
   }
    
   /* Extra large devices (large desktops, 1200px and up) */
