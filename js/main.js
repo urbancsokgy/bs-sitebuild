@@ -29,7 +29,7 @@ $(document).ready(function(){
 
 function myFunction() {
   if (window.scrollY > 1 || document.documentElement.scrollTop > 1) {
-    console.log(window.scrollY);
+    
     document.querySelector('.navbar-top').classList.remove('top-nav');
     document.querySelector('.navbar-top').classList.remove('bg-transparent');
     
@@ -41,3 +41,20 @@ function myFunction() {
   
   }
 }
+
+
+// window.addEventListener('resize', inner);
+// function inner(){
+//     console.log('hurrá');
+//     if (window.innerWidth>1000){
+//         $( "h1" ).addClass( "display-4" );
+//     }
+//     else{
+//         $( "h1" ).removeClass( "display-4" );
+//     }
+// };
+// window.addEventListener('resize', reportWindowSize);
+// function reportWindowSize() {
+//     console.log(window.innerHeight);
+//     console.log(window.innerWidth);
+//   }
