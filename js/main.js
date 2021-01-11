@@ -23,3 +23,21 @@ $(document).ready(function(){
       } // End if
     });
   });
+
+
+  window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (window.scrollY > 1 || document.documentElement.scrollTop > 1) {
+    console.log(window.scrollY);
+    document.querySelector('.navbar-top').classList.remove('top-nav');
+    document.querySelector('.navbar-top').classList.remove('bg-transparent');
+    
+    
+    
+} else {
+    document.querySelector('.navbar-top').classList.add('top-nav');
+    document.querySelector('.navbar-top').classList.add('bg-transparent');
+  
+  }
+}
